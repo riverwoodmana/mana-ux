@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF4E6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.homeButton {
+  border: 0;
+  cursor: pointer;
+  color: #495057;
+  text-decoration: none;
+}
+.container {
+  margin: 10px 20px;
+}
+
+.mana-header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 675px;
+  border-bottom: 3px solid #495057;;
+  color: #495057;
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+}
+
+.navBar-link {
+  padding: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #495057;
+}
+
+.messageContainer {
+  margin: 40px auto;
+  display: flex;
+  gap: 30px;
+  background-color: #ffa94d;
+  width: 675px;
+  
+}
+
+.messageVerse {
+  margin-left: 20px;
+}
+.mainImg {
+  height: 300px;
+  transform: translate(20px, -20px);
+}
+
+.messageFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.messageFooter a {
+  text-decoration: none;
+  color: #495057;
+  font-weight: bold;
+  border: 2px solid #d9480f;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navBar__button{
+  border: 0;
+  background-color: #FFF4E6;
+  color: #495057;
+  padding: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: Bold;
+  cursor: pointer;
+}
+
+form {
+  padding: 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalCancel{
+  display: flex;
+  justify-content: right;
+}
+
+.modalCancelButton {
+  border: none;
+  background-color: #FFF;
+  font-size: 20px;
+  padding: 5px 10px 0 0;
+}
+
+.modalCancelButton:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.formSubmit:hover {
+  cursor: pointer;
+  background-color: #ffc078 !important;
+}
