@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mana-ux/static/css/main.b54f1399.css",
-    "main.js": "/mana-ux/static/js/main.cce4b1fa.js",
-    "static/js/787.ff46861e.chunk.js": "/mana-ux/static/js/787.ff46861e.chunk.js",
-    "static/media/bread_wine.jpg": "/mana-ux/static/media/bread_wine.661e470f940a2e3746bd.jpg",
-    "index.html": "/mana-ux/index.html",
-    "main.b54f1399.css.map": "/mana-ux/static/css/main.b54f1399.css.map",
-    "main.cce4b1fa.js.map": "/mana-ux/static/js/main.cce4b1fa.js.map",
-    "787.ff46861e.chunk.js.map": "/mana-ux/static/js/787.ff46861e.chunk.js.map"
+    "main.css": "/static/css/main.b54f1399.css",
+    "main.js": "/static/js/main.9d2f0c17.js",
+    "static/js/787.ff46861e.chunk.js": "/static/js/787.ff46861e.chunk.js",
+    "static/media/bread_wine.jpg": "/static/media/bread_wine.661e470f940a2e3746bd.jpg",
+    "index.html": "/index.html",
+    "main.b54f1399.css.map": "/static/css/main.b54f1399.css.map",
+    "main.9d2f0c17.js.map": "/static/js/main.9d2f0c17.js.map",
+    "787.ff46861e.chunk.js.map": "/static/js/787.ff46861e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b54f1399.css",
-    "static/js/main.cce4b1fa.js"
+    "static/js/main.9d2f0c17.js"
   ]
 }
