@@ -139,25 +139,25 @@ function Admin() {
     }
     
     async function getVolunteers() {
-        await axios.get(REACT_APP_BASE_URL+"api/sendemail/volunteerVerified").then((response) => {
+        await axios.get(REACT_APP_BASE_URL+"api/SendEmail/volunteerVerified").then((response) => {
           set_vol(response.data);
           })
       }
 
     async function getVolunteersUnverified() {
-        await axios.get(REACT_APP_BASE_URL+"api/sendemail/volunteerUnverified").then((response) => {
+        await axios.get(REACT_APP_BASE_URL+"api/SendEmail/volunteerUnverified").then((response) => {
             setunv_vol(response.data);
             })
     }
 
     async function getRequests() {
-        await axios.get(REACT_APP_BASE_URL+"api/sendemail/requestVerified").then((response) => {
+        await axios.get(REACT_APP_BASE_URL+"api/SendEmail/requestVerified").then((response) => {
             set_req(response.data);
             })
     }
 
     async function getRequestsUnverified() {
-        await axios.get(REACT_APP_BASE_URL+"api/sendemail/requestUnverified").then((response) => {
+        await axios.get(REACT_APP_BASE_URL+"api/SendEmail/requestUnverified").then((response) => {
             setunv_req(response.data);
             })
     }
