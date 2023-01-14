@@ -2,7 +2,7 @@
   "name": "react-mana",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://riverwoodmana.github.io/mana-ux",
+  "homepage": "https://riverwoodmana.github.io/mana-ux",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
